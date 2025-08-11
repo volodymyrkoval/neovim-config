@@ -1,3 +1,7 @@
+-- Set leader key before loading any configurations
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+
 -- Core editor settings
 vim.opt.expandtab = true
 vim.opt.tabstop = 4

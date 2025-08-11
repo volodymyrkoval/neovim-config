@@ -87,6 +87,7 @@ All plugin files follow this structure:
 ### Plugin Dependencies
 - Mason → Mason-LSPConfig → nvim-lspconfig (LSP setup chain)
 - None-ls depends on Mason-null-ls for tool installation
+- None-ls uses none-ls-extras.nvim for ESLint integration (diagnostics and code actions)
 - Neo-tree requires nui.nvim and nvim-web-devicons
 
 ### Auto-installation
